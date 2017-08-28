@@ -20,7 +20,7 @@ fi
 if test ! -e gtest; then
   echo "Google Test not present.  Fetching gtest-1.5.0 from the web..."
   curl -L https://github.com/google/googletest/archive/release-1.5.0.tar.gz | tar zx
-  mv gtest-1.5.0 gtest
+  mv googletest-release-1.5.0 gtest
 fi
 
 set -ex
